@@ -1,4 +1,4 @@
-# Nome_da_Aplicação
+# Capivara Naval
 
 <!--- Exemplos de badges. Acesse https://shields.io para outras opções. Você pode querer incluir informações de dependencias, build, testes, licença, etc. --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/hsborges/progweb-template)
