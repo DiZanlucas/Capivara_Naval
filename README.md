@@ -48,10 +48,10 @@ Para usar Capivara Naval, siga os seguintes passos (exemplos):
 ## Contribuidores
 
 As seguintes pessoas contribuiram para este projeto:
-Lucas Kazuo Mimura
 
-* [Meu nome](https://github.com/meu_nome)
-* *.... (liste todos os membros da equipe)*
+* [Édini Marques Zanlucas](https://github.com/DiZanlucas)
+* [Lucas Kazuo Mimura](https://github.com/Mimurakl)
+* [nome](link perfil do github)
 
 ## Licença de uso
 
