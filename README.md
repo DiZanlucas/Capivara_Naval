@@ -3,8 +3,7 @@
 <!--- Exemplos de badges. Acesse https://shields.io para outras opções. Você pode querer incluir informações de dependencias, build, testes, licença, etc. --->
 ![GitHub repo size](https://img.shields.io/github/repo-size/hsborges/progweb-template)
 ![GitHub contributors](https://img.shields.io/github/contributors/hsborges/progweb-template)
-
-Nome_da_Aplicação é um/uma ... que permite/tem por objetivo/visa/etc .... 
+Capivara Naval é um/uma ... que permite/tem por objetivo/visa/etc .... 
 
 Coloque aqui linhas adicionais com informações sobre o que a aplicação faz. Sua introdução deve ser de no máximo 3 parágrafos, seja simples e objetivo para não sobrecarregar de detalhes desnecessários este espaço. Se necessário, crie novas seções abaixo.
 
@@ -34,9 +33,9 @@ Windows (opcional):
 <commandos>
 ```
 
-## Usando Nome_da_Aplicação
+## Usando Capivara Naval
 
-Para usar Nome_da_Aplicação, siga os seguintes passos (exemplos):
+Para usar Capivara Naval, siga os seguintes passos (exemplos):
 
 * Abra o navegador e digite o seguinte endereço: `http://localhost/....`
 * Ao abrir a aplicação você poderá:
