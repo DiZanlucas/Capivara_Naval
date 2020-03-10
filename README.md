@@ -48,6 +48,7 @@ Para usar Capivara Naval, siga os seguintes passos (exemplos):
 ## Contribuidores
 
 As seguintes pessoas contribuiram para este projeto:
+Lucas Kazuo Mimura
 
 * [Meu nome](https://github.com/meu_nome)
 * *.... (liste todos os membros da equipe)*
