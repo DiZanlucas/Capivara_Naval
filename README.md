@@ -51,7 +51,7 @@ As seguintes pessoas contribuiram para este projeto:
 
 * [Édini Marques Zanlucas](https://github.com/DiZanlucas)
 * [Lucas Kazuo Mimura](https://github.com/Mimurakl)
-* [nome](link perfil do github)
+* [Altair Roberto Rangel Braga](https://github.com/altair-roberto)
 
 ## Licença de uso
 
