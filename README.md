@@ -57,6 +57,6 @@ As seguintes pessoas contribuiram para este projeto:
 ## Licença de uso
 
 <!--- Se não tiver certeza de qual, verifique este site: https://choosealicense.com/--->
-Este projeto usa a seguinte licença: [<nome_da_licenca>](<link>).
+Este projeto usa a seguinte licença: [<MIT License>](<https://opensource.org/licenses/MIT>).
 *Você também deve criar um arquivo chamado LICENSE no projeto*
 
