@@ -1,9 +1,8 @@
 # Capivara Naval
 
 <!--- Exemplos de badges. Acesse https://shields.io para outras opções. Você pode querer incluir informações de dependencias, build, testes, licença, etc. --->
-![GitHub repo size](https://img.shields.io/github/repo-size/hsborges/progweb-template)
-![GitHub contributors](https://img.shields.io/github/contributors/hsborges/progweb-template)
-Capivara Naval é um/uma ... que permite/tem por objetivo/visa/etc .... 
+![GitHub repo size](https://img.shields.io/github/repo-size/DiZanlucas/Capivara_Naval)
+![GitHub contributors](https://img.shields.io/github/contributors/DiZanlucas/Capivara_Naval)
 
 ## Objetivos do projeto:
 * Criar um jogo simulando a batalha naval utilizando de tecnologias de desenvolvimento web, tais como html, javascript, css.
