@@ -92,11 +92,8 @@ Para usar Capivara Naval, siga os seguintes passos (exemplos):
 
 As seguintes pessoas contribuiram para este projeto:
 
-* [Édini Marques Zanlucas](https://github.com/DiZanlucas)
 * [Lucas Kazuo Mimura](https://github.com/Mimurakl)
-* [Altair Roberto Rangel Braga](https://github.com/altair-roberto)
-* [Rogério De Souza Oliveira Filho](https://https://github.com/oliveirarogerio)
-* [Rafael Eduardo](https://github.com/raraedu)
+###A seguinte branch é atualizada somente pelo usuário acima citado
 
 ## Licença de uso
 
