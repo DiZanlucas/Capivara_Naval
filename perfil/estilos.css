@@ -43,6 +43,7 @@ body {
   font-weight: bold;
   padding: 10px 0;
   width: 10vw;
+  border-radius: 20px;
   
 }
 
@@ -55,6 +56,9 @@ body {
 }
 
 .capivara .tabela {
+  border-width: medium;
+  border-style: solid;
+  border-color:#527318;
   padding: 10px;
   width:500px;
   height:250px;
@@ -65,7 +69,9 @@ body {
 
 
 .capivara .valor {
-
+border-width: medium;
+border-style: solid;
+border-color:#527318;
 display: flex;
 padding: 10px;
 background: #899857;
