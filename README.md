@@ -93,6 +93,7 @@ Para usar Capivara Naval, siga os seguintes passos (exemplos):
 As seguintes pessoas contribuiram para este projeto:
 
 * [Édini Marques Zanlucas](https://github.com/DiZanlucas)
+
 ###Essa branch é específica para este usuário
 
 ## Licença de uso
