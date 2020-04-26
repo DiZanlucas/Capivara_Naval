@@ -23,7 +23,7 @@ h1.titulo{
     background-color: #899857;
     border-color:#899857;
     border-style: outset;
-    margin-left: 200px;
+    margin-left: 150px;
 }
 table{
     width: 300px;
@@ -32,5 +32,17 @@ table{
 td{
     padding:0px 0px 0px 0px;
     margin-left: 0px;
-    margin-bottom: 200px;
+}
+.column1of2{
+    float: left;
+    margin: 10px;
+}
+.column2of2{
+    float: left;
+    margin: 0px 100px;
+    width: 300px;
+    height: 300px;
+}
+img{
+    width: 200px;
 }
