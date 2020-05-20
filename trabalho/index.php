@@ -16,6 +16,9 @@ switch ($_GET['acao']) {
     case 'ranking':
         $controller->ranking();
         break;
+    case 'batalha':
+        $controller->batalha();
+        break;
     default:
         $controller->login();
 }

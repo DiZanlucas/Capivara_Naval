@@ -15,14 +15,14 @@
     <table class="data">
       <?php if (is_null($data) || count($data) === 0) { ?>
       <tr>
-        <th>Posição0</th>
+        <th>Posição</th>
         <th>Nome</th>
         <th>Pontos</th>
       </tr>
       <?php } else { ?>
       
       <tr>
-        <th>Posição1</th>
+        <th>Posição</th>
         <th>Nome</th>
         <th>Pontos</th>
       </tr>

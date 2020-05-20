@@ -17,7 +17,7 @@
 
       
       <div class="logo">
-        <img src="visao/capivara1.png" alt="" />
+        <img src="visao/imagens/capivara1.png" alt="" />
       </div>
      
 
@@ -39,6 +39,12 @@
         <button type="submit">Jogar</button>
         </div>
         </form>
+         <br>
+	 <a href="index.php?acao=ranking">  
+	  <div class="botao">
+             <button type="submit">Ranking</button>
+          </div>
+         </a>
      </div>
   </body>
 </html>

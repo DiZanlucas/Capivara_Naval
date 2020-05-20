@@ -31,14 +31,14 @@ body {
   display: flex;
   align-items: center;
   flex-direction: column;
-  justify-content: space-between;
+  
   
   
 }
 
 .capivara .botao button {
   
-  display: inline;
+  
   font-size: 0.75rem;
   font-weight: bold;
   padding: 10px 0;
