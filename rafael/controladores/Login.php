@@ -3,36 +3,23 @@
 require 'controladores/Controlador.php';
 require 'modelos/Usuario.php';
 
-/**
-* Controlador do login.
-*/
+
 class LoginController extends Controller  {
     
-    /**
-    * @var Usuario armazena o usuário logado no momento.
-    */
+    
     private $usuario1;
 
-     /**
-    * @var Usuario armazena o usuário logado no momento.
-    */
+     
     private $usuario2;
 
-    /**
-    *  Construtor da classe. 
-    *  Inicia/recupera a sessão do usuário e recupera o usuário logado.
-    */
+    
     function __construct() {
         session_start();
         if (isset($_SESSION['user1'])) $this->usuario1 = $_SESSION['user1'];
         if (isset($_SESSION['user2'])) $this->usuario2 = $_SESSION['user2'];
     }
     
-    /**
-    *  Método que trata as requisições:
-    *  POST - busca pelo email no banco e confere se a senha é igual. Se sim, usuário logado!
-    *  GET  - se não logado, abre a página de login, senão mostra as informações do usuário
-    */
+    
     public function login() {
         if ($_SERVER['REQUEST_METHOD'] == 'POST') {
             if ($_POST['nick1'] != $_POST['nick2']){
