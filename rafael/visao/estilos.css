@@ -1,0 +1,85 @@
+body {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: center;
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+  background: #FFE75E;
+
+}
+
+.capivara {
+  	
+  
+}
+
+.capivara .logo {
+  display: flex;
+  justify-content: center;
+  
+}
+
+.capivara .logo img {
+  height: 200px;
+  width: 200px;
+}
+
+
+.capivara .botao {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  justify-content: space-between;
+  
+  
+}
+
+.capivara .botao button {
+  
+  display: inline;
+  font-size: 0.75rem;
+  font-weight: bold;
+  padding: 10px 0;
+  width: 10vw;
+  border-radius: 20px;
+  
+}
+
+.capivara .titulo {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  
+ 
+}
+
+.capivara .tabela {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-width: medium;
+  border-style: solid;
+  border-color:#527318;
+  padding: 10px;
+  width:350px;
+  height:150px;	
+  background-color:#FEB72B;
+  border-radius: 20px
+  
+  
+}
+
+
+.capivara .valor {
+border-width: medium;
+border-style: solid;
+border-color:#527318;
+display: flex;
+padding: 10px;
+background: #899857;
+font-size: large;
+width:500px;
+border-radius: 20px
+}
