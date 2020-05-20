@@ -30,7 +30,11 @@
 	<br>
   	<label>Usuário 2</label><br>
   	<input type="nick2" id="nick2" name="nick2">
-	
+        <br>
+        <br>
+           <div class ="rank">
+	      <a href="index.php?acao=ranking">Ranking</a>
+	   </div>
         </div>
         <br>
 	<br>
@@ -39,12 +43,7 @@
         <button type="submit">Jogar</button>
         </div>
         </form>
-         <br>
-	 <a href="index.php?acao=ranking">  
-	  <div class="botao">
-             <button type="submit">Ranking</button>
-          </div>
-         </a>
+	 
      </div>
   </body>
 </html>
