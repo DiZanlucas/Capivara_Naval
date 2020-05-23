@@ -76,7 +76,7 @@ Para usar Capivara Naval, siga os seguintes passos (exemplos):
 * Ao abrir a aplicação você poderá:
   * Acessar o ranking do jogo.
   * Entrar com o nick dos dois usuários e iniciar a partida.
-* Ranking:
+* Ranking: 
   *Lista os 5 usuários com maior pontuação no jogo.
 * Campo de batalha:
   *Mostra as capivaras e o campo de batalha.
