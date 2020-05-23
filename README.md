@@ -10,35 +10,27 @@
 
 
 ## Como será o jogo desenvolvido?
-* O jogo simulará uma batalha naval tradicional com seus princípios, porém terá um sistema de pontos e a possibilidade do usuário poder estilizar suas capivaras(navios).
-* Sistema de pontos: O jogo conta com um sistema de pontos que permite ao usuário mudar o visual da capivara conforme ele joga, baseado em seus pontos de habilidade, que são ganhos durante as partidas, destruindo as capivaras inimigas.
+* O jogo simulará uma batalha naval tradicional com seus princípios, com um sistema de pontos também.
+* Ranking: O jogo conta com um sistema de pontos que são adquiridos ao longo das batalhas e os 5 usuários com mais pontos serão listados em um ranking.
 
 
 ## Como funciona o jogo:
 
 * O jogo é realizado com 2 usuários, um contra o outro.
-* Cada jogador enxerga duas tabelas, a sua com seus navios e a outra em branco.
+* Cada jogador enxerga duas tabelas, a sua e a so seu inimigo.
 * Cada tabela contém um tamanho de 10 colunas(1-10) e 10 linhas(A-J) somando 100 quadrados.
-* Antes do jogo começar cada jogador organiza suas capivaras nos quadrados desejados da sua tabela.
-* É possível trocar a posição de cada capivara, horizontal ou vertical. 
+* Antes do jogo começar cada jogador organiza suas capivaras nos quadrados desejados da sua tabela. 
 * Ganha quem conseguir acertar todas as capivaras espalhadas na tabela do inimigo.
 * A cada acerto o jogador ganha um ponto de rank.
-* A cada rodada você escolhe com qual capivara irá jogar, podendo adquirir diferentes opções usando seus pontos.
-* Existem duas opções de jogo, visitante e usuário cadastrado.
-* O visitante perde seus pontos quando fecha o jogo, o usuário salva suas capivaras e pontos.
-* Para se cadastrar é preciso fornecer um nome de usuário, senha e email.
+* Os pontos dos usuários ficam salvos.
+* Para se cadastrar é preciso fornecer um nome de usuário (nick).
 
 
 ## Requisitos Funcionais:
 
-* O jogo deve validar o nome de usuário.
-* O jogo deve validar a senha do usuário.
-* O jogo deve validar o email do usuário.
-* O jogo deve permitir que o usuário realize criação/alteração/remoção dos dados da sua conta.
-* O jogo deve permitir a alteração da skin da capivara antes de começar a partida.
+* O jogo deve validar o nick de usuário.
 * O jogo deve permitir a inclusão/alteração/remoção da posição da capivara no campo de batalha.
-* O jogo deve permitir que o usuário selecione um quadrado da tabela para atingir
-* O jogo deve permitir que o usuário altere a posição do quadrado para atingir.
+* O jogo deve permitir que o usuário selecione um quadrado da tabela para atingir.
 * O jogo deve exibir  a quantidade de capivaras destruídas na partida.
 * O jogo deve exibir a quantidade de tempo restante do jogador para cada jogada.
 * O jogo deve exibir os pontos de rank do jogador.
