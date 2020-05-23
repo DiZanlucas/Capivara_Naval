@@ -72,13 +72,14 @@ Windows (opcional):
 
 Para usar Capivara Naval, siga os seguintes passos (exemplos):
 
-* Abra o navegador e digite o seguinte endereço: `http://localhost/....`
+* Abra o navegador e digite o seguinte endereço: `http://localhost/Capivara_Naval/trabalho/index.php
 * Ao abrir a aplicação você poderá:
-  * Navegar pelo conteúdo público, ou
-  * Entrar com usuário e senha para ....
-* *Continua ...*  
-
-*Descreva as principais atividades, e/ou fluxos, que são possíveis de serem realizadas na aplicação.*
+  * Acessar o ranking do jogo.
+  * Entrar com o nick dos dois usuários e iniciar a partida.
+* Ranking:
+  *Lista os 5 usuários com maior pontuação no jogo.
+* Campo de batalha:
+  *Mostra as capivaras e o campo de batalha.
 
 ## Contribuidores
 
