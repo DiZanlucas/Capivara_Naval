@@ -5,7 +5,7 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Capivara Naval</title>
-    <link rel="stylesheet" href="visao/estilos.css" />
+    <link rel="stylesheet" href="visao/login.css" />
     <script src="script.js"></script>
   </head>
   <body>

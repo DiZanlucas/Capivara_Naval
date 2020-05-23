@@ -2,37 +2,46 @@
 
 include_once("Banco.php");
 
-
+/**
+*  Classe para representar os usuarios com seu nick e pontos
+*/
 class Usuario {
 
-   
+   /**
+   *  String do nick do usuário.
+   */
     private $nick;
 
-
+   /**
+   *  int dos pontos do usuário.
+   */
     private $pontos;
 
-   
+   /**
+   *  Construtor da clase que recebe nick e pontos
+   */
     function __construct(string $nick, int $pontos) {
         $this->nick = $nick;
         $this->pontos = $pontos;
     }
 
-    
+   /**
+   *  método genérico para acessar os campos dessa classe
+   */
     public function __get($campo) {
         return $this->$campo;
     }
 
-   
+   /**
+   *  método genérico para alterar os campos dessa classe
+   */
     public function __set($campo, $valor) {
         return $this->$campo = $valor;
     }
 
-    
-    public function igual(string $nick) {
-        return $this->nick === $nick;
-    }
-
-    
+    /**
+     *  Função parar salvar os dados do usuário no banco.
+     */   
     public function salvar() {
         $db = Banco::getInstance();
         $stmt = $db->prepare('INSERT INTO Usuarios (nick, pontos) VALUES (:nick, :pontos)');
@@ -41,7 +50,12 @@ class Usuario {
         $stmt->execute();
     }
 
-    
+     /**
+     * Função estática, pois não depende do estado de uma instância,
+     * para buscar um usuário no banco.
+     * 
+     * retorna uma instância de usuário ou null caso usuário não exista.
+     */
     public static function buscar(string $nick) {
         $db = Banco::getInstance();
 
@@ -59,6 +73,12 @@ class Usuario {
         }
     }
 
+     /**
+     * Função estática, pois não depende do estado de uma instância,
+     * buscar no banco os 5 usuários com mais pontos.
+     * 
+     * retorna um vetor com os usuários encontrados ou null caso não exista nenhum usuário.
+     */
     public static function ranking() {
         $db = Banco::getInstance();
 

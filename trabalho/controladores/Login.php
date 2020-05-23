@@ -3,23 +3,36 @@
 require 'controladores/Controlador.php';
 require 'modelos/Usuario.php';
 
-
+/**
+* Controlador do login.
+*/
 class LoginController extends Controller  {
     
-    
+    /**
+    * armazena o usuário 1 logado na partida.
+    */    
     private $usuario1;
 
-     
+    /**
+    * armazena o usuário 2 logado na partida.
+    */ 
     private $usuario2;
 
-    
+    /**
+    *  Construtor da classe. 
+    *  Inicia a sessão dos usuários.
+    */
     function __construct() {
         session_start();
         if (isset($_SESSION['user1'])) $this->usuario1 = $_SESSION['user1'];
         if (isset($_SESSION['user2'])) $this->usuario2 = $_SESSION['user2'];
     }
     
-    
+    /**
+    *  Método que trata as requisições:
+    *  POST - busca pelo usuário no banco se existir loga, se não cria um novo.
+    *  Se os nicks forem iguais retorna ao login, se um dos nicks for vazio também.
+    */
     public function login() {
 	if ($_SERVER['REQUEST_METHOD'] == 'POST') {
              if (empty($_POST['nick1']) or  empty($_POST['nick2'])){
@@ -56,12 +69,18 @@ class LoginController extends Controller  {
         }
     }
 
+    /**
+    *  Chama ranking() que retorna um vetor com os 5 usuários com maior pontuação, e salva em $rank para ser listado.
+    */
    public function ranking() {
         $rank = Usuario::ranking();
 	
         $this->view('ranking', $rank);   
     }
 
+    /**
+    *  Após os usuários serem logados direciona para a view do campo de batalha.
+    */
    public function batalha() {
         
 	
