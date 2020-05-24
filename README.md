@@ -45,34 +45,27 @@
 ## Pré-requisitos
 
 Antes de iniciar, certifique-se de cumprir os seguintes requisitos:
-<!--- Estes são alguns exemplos de requisitos. Adicione, duplique e remove como necessário --->
-* Você deve possuir a última versão do `<linguagem/dependencia/etc>` instalado.
-* Você deve possuir uma máquina `<Windows/Linux/Mac>`. (Deixe claro qual SO é possível rodar a aplicação, Linux é obrigatório).
-* Você deve ler o `<guia/link/documentação>` dos termos de uso.
-* (outros ...)
+* Você deve possuir servidor web com suporte a PHP.
+* Você deve possuir a última versão do PHP,PDO,sqlite instalados.
+* Você deve possuir uma máquina Linux.
+* Você deve ler a documentação dos termos de uso.
 
 ## Como executar
 
 Para fazer o deploy da aplicação siga os seguintes passos:
 
-Linux e/ou macOS:
-```
-<commando 1>
-<commando 2>
-....
-<commando n>
-```
+Linux:
+
+php -S localhost:8080  -d error_reporting="E_ERROR | E_WARNING | E_PARSE"
 
 Windows (opcional):
-```
-<commandos>
-```
+
 
 ## Usando Capivara Naval
 
 Para usar Capivara Naval, siga os seguintes passos (exemplos):
 
-* Abra o navegador e digite o seguinte endereço: `http://localhost/Capivara_Naval/trabalho/index.php
+* Abra o navegador e digite o seguinte endereço: `http://localhost:8080/Capivara_Naval/trabalho/index.php
 * Ao abrir a aplicação você poderá:
   * Acessar o ranking do jogo.
   * Entrar com o nick dos dois usuários e iniciar a partida.
